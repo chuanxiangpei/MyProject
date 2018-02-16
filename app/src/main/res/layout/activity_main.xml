@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white">
+
+<android.support.design.widget.AppBarLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@android:color/white"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Light">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="主界面"
+            android:textColor="@android:color/holo_blue_dark"
+            android:textSize="25sp" />
+    </android.support.v7.widget.Toolbar>
+</android.support.design.widget.AppBarLayout>
+    <include layout="@layout/button"/>
+
+    <include layout="@layout/bottom"/>
+
+    <LinearLayout
+        android:id="@+id/dashLine2"
+        android:layout_width="match_parent"
+        android:layout_height="15dp"
+        android:layout_marginTop="220dp"
+        android:background="?attr/colorButtonNormal"
+        android:layerType="software"
+        android:orientation="horizontal" />
+
+
+</android.support.design.widget.CoordinatorLayout>

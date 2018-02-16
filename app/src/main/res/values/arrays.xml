@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="contries">
+        <item>中国 +86</item>
+        <item>香港 00852 </item>
+        <item>台湾 00886</item>
+        <item>澳门 00853</item>
+        <item>德国 0049</item>
+        </string-array>
+</resources>
